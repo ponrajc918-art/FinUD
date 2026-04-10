@@ -443,25 +443,32 @@ def run_fraud_detection(df, dataset_type):
         pass
     return results
 # 🔥 NEW: Age vs Income anomaly
-age_col = next((c for c in df.columns if 'age' in c), None)
-income_col = next((c for c in df.columns if 'income' in c), None)
+def analyze_data(df):
+    results = {
+        'abnormal': []
+    }
 
-if age_col and income_col:
-    for idx, row in df.iterrows():
-        try:
-            age = float(row[age_col])
-            income = float(row[income_col])
+    age_col = next((c for c in df.columns if 'age' in c), None)
+    income_col = next((c for c in df.columns if 'income' in c), None)
 
-            if age < 25 and income > 150000:
-                results['abnormal'].append({
-                    'row': int(idx) + 1,
-                    'column': income_col,
-                    'value': round(income, 2),
-                    'id': str(df.iloc[idx, 0]),
-                    'reason': 'Income too high for age (suspicious pattern)'
-                })
-        except:
-            continue
+    if age_col and income_col:
+        for idx, row in df.iterrows():
+            try:
+                age = float(row[age_col])
+                income = float(row[income_col])
+
+                if age < 25 and income > 150000:
+                    results['abnormal'].append({
+                        'row': int(idx) + 1,
+                        'column': income_col,
+                        'value': round(income, 2),
+                        'id': str(df.iloc[idx, 0]),
+                        'reason': 'Income too high for age (suspicious pattern)'
+                    })
+            except:
+                continue
+
+    return results
 
 @app.route('/api/fraud/<dataset_type>', methods=['GET'])
 def get_fraud(dataset_type):
