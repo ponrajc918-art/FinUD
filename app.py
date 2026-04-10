@@ -76,7 +76,8 @@ def upload_dataset():
     try:
         content = file.read().decode('utf-8')
         df = pd.read_csv(StringIO(content))
-        df.columns = [c.strip().lower().replace(' ', '_') for c in df.columns]        DATA_STORE[dataset_type] = df
+        df.columns = [c.strip().lower().replace(' ', '_') for c in df.columns]
+        DATA_STORE[dataset_type] = df        
         fraud = run_fraud_detection(df, dataset_type)
         DATA_STORE['fraud_results'][dataset_type] = fraud
         return jsonify({
