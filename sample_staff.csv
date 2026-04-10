@@ -1,0 +1,21 @@
+staff_id,name,department,target,achieved,quarter
+S200,Alice Johnson,Investments,189779,88447,Q3 2024
+S201,Bob Smith,Investments,86168,205601,Q3 2024
+S202,Carol White,Investments,188099,166394,Q3 2024
+S203,David Brown,Customer Service,87561,115703,Q4 2024
+S204,Emma Davis,Sales,153794,116090,Q1 2024
+S205,Frank Wilson,Investments,162152,57260,Q4 2024
+S206,Grace Lee,Sales,106734,152581,Q4 2024
+S207,Henry Taylor,Customer Service,86371,43812,Q3 2024
+S208,Iris Martinez,Loans,198894,199096,Q2 2024
+S209,Jack Anderson,Investments,106069,156148,Q2 2024
+S210,Kate Thomas,Sales,159905,198357,Q4 2024
+S211,Liam Jackson,Sales,92910,156421,Q4 2024
+S212,Mia Harris,Investments,153479,41605,Q3 2024
+S213,Noah Martin,Loans,157735,112303,Q4 2024
+S214,Olivia Garcia,Loans,161264,198211,Q3 2024
+S215,Paul Robinson,Loans,103275,116125,Q2 2024
+S216,Quinn Lewis,Customer Service,152274,184990,Q2 2024
+S217,Rachel Walker,Sales,161449,198518,Q1 2024
+S218,Sam Hall,Sales,180776,164040,Q2 2024
+S219,Tina Young,Sales,140004,184118,Q4 2024
