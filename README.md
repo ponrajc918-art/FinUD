@@ -98,9 +98,16 @@ finai/
 | `/api/chat` | POST | AI chatbot |
 
 ## Screenshots
+<img width="1918" height="1079" alt="Screenshot 2026-04-10 235309" src="https://github.com/user-attachments/assets/9dc5c7d4-9707-4e0e-b2e8-9304cbaee8b4" />
+
+<img width="1918" height="1079" alt="Screenshot 2026-04-10 235309" src="https://github.com/user-attachments/assets/9dc5c7d4-9707-4e0e-b2e8-9304cbaee8b4" />
+
+<img width="1919" height="1013" alt="Screenshot 2026-04-10 235256" src="https://github.com/user-attachments/assets/082e7de9-0dde-4086-b30b-21f47b8d3736" />
+
+<img width="1919" height="1043" alt="Screenshot 2026-04-10 235245" src="https://github.com/user-attachments/assets/0e7cc203-94e9-4c79-8b67-d0bc14ee12a0" />
 
 <img width="1919" height="1073" alt="Screenshot 2026-04-10 235348" src="https://github.com/user-attachments/assets/8e2a9606-55f8-4d5e-aec9-85184ee6740d" />
-![Uploading Screenshot 2026-04-10 235348.png…]()
+
 
 
 ---
