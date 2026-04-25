@@ -100,8 +100,8 @@ finai/
 ## Screenshots
 # My Project HOME page
 <img width="1916" height="966" alt="image" src="https://github.com/user-attachments/assets/38410197-934e-42a6-a433-579bd9dd1250" />
-# Screenrecording
 
+## Screenshots
 https://github.com/user-attachments/assets/5ba736b0-6e4c-4792-921a-ff462b4fcb3e
 
 
