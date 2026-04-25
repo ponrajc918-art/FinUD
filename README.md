@@ -1,4 +1,3 @@
-# FinAI — Financial Decision Intelligence Dashboard
 # FinUD - Financial level Understanding
 
 A full-stack AI-powered web application for financial decision intelligence, built with Flask + vanilla JS.
