@@ -100,9 +100,7 @@ finai/
 ## Screenshots
 # My Project HOME page
 <img width="1916" height="966" alt="image" src="https://github.com/user-attachments/assets/38410197-934e-42a6-a433-579bd9dd1250" />
-# datasets upload page
-<img width="1919" height="973" alt="image" src="https://github.com/user-attachments/assets/90ba241b-49bc-44c7-9cee-28d01393ee0d" />
-## screen recording for my working 
+## Screen Recording for my project work
 
 https://github.com/user-attachments/assets/5ba736b0-6e4c-4792-921a-ff462b4fcb3e
 
